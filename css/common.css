@@ -1,0 +1,41 @@
+@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+@font-face {
+  font-family: "noto-sans-cjk-kr", sans-serif;
+  font-weight: 600;
+  src: url("@fonts/NotoSansCJKkr-Bold.otf") format("otf");
+}
+
+@font-face {
+  font-family: "noto-sans-cjk-kr", sans-serif;
+  font-weight: 500;
+  src: url("@fonts/NotoSansCJKkr-Medium.otf") format("otf");
+}
+
+@font-face {
+  font-family: "noto-sans-cjk-kr", sans-serif;
+  font-weight: 400;
+  src: url("@fonts/NotoSansCJKkr-Regular.otf") format("otf");
+}
+@font-face {
+  font-family: "noto-sans-cjk-kr", sans-serif;
+  font-weight: 300;
+  src: url("@fonts/NotoSansCJKkr-Light.otf") format("otf");
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.flex {display: flex;}
+.flex_bw {display: flex; align-items: center; justify-content: space-between;}
+.flex_a {display: flex; align-items: center;}

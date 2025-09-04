@@ -1,0 +1,274 @@
+@media (max-width: 1920px) {
+
+  .mid_slide {width: 100%;}
+}
+
+@media (max-width: 1700px) {
+
+  .treatment_li {width: 100%;}
+  .treatment_li > li {width: 48%; height: auto;}
+    .treatment_li > li > img {width: 100%; height: 100%; object-fit: cover;}
+}
+
+@media (max-width: 1600px) {
+
+  .treatment_li {width: 100%;}
+  .main_banner {height: 750px;}
+  .treatment_li .t_row_txt {left: 15px;}
+}
+
+@media (max-width: 1400px) {
+  .main_text {padding-left: 100px;}
+
+  .hd_menu {width: 100%;}
+  .ld_w_top {width: 100%;}
+  .sec_content {width: 100%;}
+  .footer_inner {width: 100%;}
+  .led_left {width: 60%;}
+  .main_text {width: 100%;}
+  .hd_bt {padding: 0 50px;}
+  footer {padding-left: 50px; padding-right: 50px;}
+  .ld_w_top {padding-left: 20px; padding-right: 20px; gap: 0 20px;}
+  .ld_w_bt {height: 720px;}
+  .led_in_txt {padding-top: 340px;}
+  .t_row_txt > p {font-size: 20px;}
+  .t_row_txt > h6 {font-size: 24px;}
+  .map_wrap {width: 100%;}
+  .map_bt_txt {width: 100%;}
+     .section4 {padding-left: 15px; padding-right: 15px;}
+  .section5 {padding-left: 15px; padding-right: 15px;}
+
+
+}
+
+@media (max-width: 1280px) {
+  .ld_w_bt {height: 680px;}
+  .map_t_in.map_t_in2 {width: 60%;}
+  .map_bt_txt {flex-flow: column; gap: 50px;}
+  .map_t_in_w {width: 100%; padding-bottom: 50px;}
+  .map_t_in_w::before {content: ""; display: none;}
+  .map_t_in_w.map_t_in_w2::after {height: 1px; width: 50px; bottom: 0; top: auto; right: auto; left: 50%; transform: translateX(-50%);}
+    .map_t_in_w.map_t_in_w1::after {content: ""; display: inline-block; height: 1px; position: absolute; width: 50px; bottom: 0; top: auto; left: 50%; transform: translateX(-50%); background-color: #89929b;}
+    footer {padding: 100px 20px;}
+}
+
+@media (max-width: 1200px) {
+
+ .main_text > h3 {font-size: 40px;}
+   .main_banner {height: 600px;}
+   .hd_lc {width: 25%;}
+   header .logo {width: 40%;}
+   .hd_call {width: 25%;}
+   .hd_top{padding: 0 15px;}
+
+   .ld_w_top {flex-flow: column;}
+   .led_left {width: 100%;}
+   .led_left > img {width: 100%;}
+   .led_left {padding-bottom: 0;}
+   .led_right > span {color: #FFF;}
+   .led_right > p {color: #FFF; padding-bottom: 90px;}
+   .ld_w_bt {height: 1300px; background-position-x: center; }
+   .ld_w_bt .led_in_txt {display: none;}
+   .led_right .led_in_txt {display: block; padding: 0 0 100px; margin: 0;}
+   .ys_mark {top: 20%; right: -20%;}
+   .led_right > p > span {margin-top: 50px;}
+
+   .tar_txt > span {font-size: 14px; width: 110px; height: 32px; line-height: 30px;}
+   .treatment_li .t_row_txt {bottom: 20px; padding-right: 15px;}
+   .t_row_txt > h6 {margin-bottom: 10px;}
+   .t_row_txt > p {margin-bottom: 10px;}
+    .t_row_txt > p br {display: none;}
+   .treatment_li > li > .tr_num {font-size: 40px;}
+   .treatment_li > li > .tr_num {left: 15px;}
+   .treatment_li {gap: 15px;}
+   .tar_txt {gap: 3px;}
+}
+
+@media (max-width: 1080px) {
+
+ .main_text > h3 {font-size: 40px;}
+   .main_banner {height: 600px;}
+   footer {padding: 70px 20px;}
+   .footer_left > span {font-size: 20px;}
+   .footer_left > p {font-size: 16px;}
+   .footer_right {width: 30%;}
+
+}
+
+@media (max-width: 960px) {
+
+  .hd_lc > p {font-size: 16px;}
+  .hd_call p {font-size: 16px;}
+  .hd_menu {font-size: 16px;}
+  .main_text {padding-left: 50px;}
+  .sec_tt_wrap > h4 {font-size: 36px;}
+  .sec_tt_wrap > .sec_sub_txt {font-size: 20px;}
+  .treatment_li > li {width: 100%;}
+  .treatment_li {gap: 20px; padding-right: 15px; padding-left: 15px;}
+  .guide_box {width: 100%;}
+  .re_in_right > p {font-size: 36px;}
+  .re_in_left > p {font-size: 24px;}
+  .re_in_left > p > span {font-size: 20px;}
+  .re_in_left > img {width: 40px;}
+  .hd_lc > span {font-size: 20px; width: 30px; height: 30px; line-height: 30px; margin-right: 5px;}
+  .hd_call span {margin-right: 5px; width: 30px;}
+  .popup_box {width: 90%;}
+  .pop_con > h5 {font-size: 24px; margin-bottom: 15px;}
+
+}
+
+@media (max-width: 796px) {
+
+  .main_text > h3 {font-size: 30px;}
+  .main_text .sub_eg {font-size: 20px;}
+  .main_text > .bar {width: 200px; height: 3px; margin: 20px 0;}
+
+
+  .led_right > span > b {font-size: 30px;}
+  .led_right > span {font-size: 24px;}
+  .led_right > p {font-size: 18px; padding-bottom: 30px;}
+  .led_right > p > span {margin-top: 30px;}
+  .led_right .led_in_txt > h6 {font-size: 28px; margin-bottom: 20px;}
+  .led_right .led_in_txt > p {font-size: 18px;}
+  .led_right .led_in_txt {padding-bottom: 50px;}
+  .ys_mark {top: 40%; width: 400px;}
+
+  .guide_top {width: 400px; font-size: 24px; height: 80px; line-height: 80px;} 
+  .guide_box {padding-top: 80px; padding-bottom: 80px;}
+  .guide_date > li > p {font-size: 24px;}
+  .guide_box > h6 {font-size: 24px; margin-top: 15px;}
+  .guide_date > li > span {font-size: 24px;}
+  .sec_tt_wrap {margin-bottom: 60px;}
+
+  .map_wrap {height: 500px;}
+
+  .map_t_in > h6 {font-size: 24px;}
+  .map_t_ad {font-size: 18px;}
+  .map_t_ad_con.map_t_ad_con1::before {width: 40px; height: 53px; background-size: cover;}
+  .footer_inner {flex-flow: column;}
+  .footer_left {margin-bottom: 50px; text-align: center;}
+  .footer_right {width: 50%;}
+  .bottom_menu_wrap {display: block; position: fixed; bottom: 0; left: 0; width: 100%;}
+  .sec_tt_wrap {padding-left: 10px; padding-right: 10px;}
+
+  .header_m {display: block;}
+  header {display: none;}
+
+  .content_wrap {padding-top: 72px;}
+
+   .mid_slide .swiper-slide {
+    width: 100%;
+    
+  }
+  #sec5 .sec_tt_wrap {padding-top: 120px;}
+  #sec3 .sec_tt_wrap {padding-top: 120px;}
+
+  .mid_slide {width: 100%;}
+  .mid_slide .swiper-button-next, .mid_slide .swiper-button-prev {padding: 5px;}
+  .mid_slide .swiper-button-prev:after, .mid_slide .swiper-button-next:after {font-size: 18px;}
+
+  .side_menu {display: none;}
+  .top_btn {width: 50px; height: 50px;}
+  .side_menu_wrap {right: 2%; bottom: 3%;}
+  .top_btn > img {width: 50%;}
+  .sec_content {padding-bottom: 70px;}
+
+  footer {padding: 70px 20px 120px;}
+  .ys_mark {right: -40%;}
+
+}
+
+@media (max-width: 620px) {
+
+  .main_banner {height: 500px;}
+  .gd_icon {gap: 40px;}
+  .gd_icon > a {width: 70px; height: 70px;}
+  .sec_tt_wrap > h4 {font-size: 24px;}
+  .sec_tt_wrap > .sec_sub_txt {font-size: 16px;}
+
+
+    .re_in_left > p {font-size: 20px;}
+  .re_in_left > p > span {font-size: 16px;}
+  .re_in_left > img {width: 30px;}
+  .re_in_right > p {font-size: 24px;}
+  .re_in_left > img {margin-right: 10px;}
+  .rv_in_wrap .l_bar {height: 50px; margin: 0 15px;}
+  .led_right .led_in_txt > p br {display: none;}
+  .map_wrap {height: 300px;}
+  .main_text > h3 {font-size: 24px;}
+  .main_text {padding-left: 20px;}
+  .main_text .sub_eg {font-size: 18px;}
+  .section4 {padding-bottom: 70px;}
+  .map_t_in {width: 100%; padding-left: 80px;}
+  .map_t_in.map_t_in2 {width: 100%;}
+  .map_last_txt {font-size: 16px;}
+  .ld_w_bt {height: 1100px;}
+  .bt_menu > li > img {width: 20px; margin-right: 10px;}
+  .bt_menu > li > a {font-size: 16px;}
+    .side_menu > li {padding: 6px 0;}
+    .side_menu > li a {font-size: 14px;}
+    .header_m {padding: 15px 20px;}
+  .main_text {top: 66%;}
+    #sec3 .sec_tt_wrap {padding-top: 60px;}
+    .sec_tt_wrap {margin-top: 60px;}
+    #sec5 .sec_tt_wrap {padding-top: 60px;}
+    .rv_in_wrap {margin-top: 70px;}
+    .bt_menu > li {height: 50px;}
+    .p_tb table tr td {padding:10px 5px;}
+    .p_tb table thead th{padding:10px 5px;}
+}
+
+@media (max-width: 500px) {
+
+  .guide_top {width: 300px; font-size: 20px; height: 60px; line-height: 60px; top: -30px;} 
+  .guide_box {padding-top: 60px; padding-bottom: 60px;}
+  .guide_date > li > p {font-size: 20px;}
+  .guide_box > h6 {font-size: 20px; margin-top: 15px;}
+  .main_banner {height: 450px;}
+  .t_row_txt > p {font-size: 18px;}
+  .led_right > span > b {font-size: 24px;}
+  .led_right > span {font-size: 20px;}
+  .led_right > p > span {margin-top: 20px;}
+  .led_right .led_in_txt > h6 {font-size: 24px; margin-bottom: 10px;}
+  .led_in_txt > p {line-height: 28px;}
+  .ld_w_top {        padding-left: 15px;
+        padding-right: 15px;}
+  .map_t_ad {font-size: 16px;}
+    .map_t_ad_con.map_t_ad_con1::before {width: 30px; height: 38px;}
+    .map_t_ad_con.map_t_ad_con2::before {width: 30px; height: 36px;}
+  .map_t_in {padding-left: 70px;}
+  .map_t_ad > span {width: 20%; display: inline-block;}
+  .map_t_ad > p {width: 80%;}
+  .main_text > h3 {font-size: 22px;}
+  .main_text .sub_eg {font-size: 14px;}
+  .tar_txt > span {width: auto; padding-left: 3px; padding-right: 3px;}
+  .sec_tt_wrap {margin-bottom: 30px;}
+  .footer_left > p .br1 {display: block;} 
+    footer {padding: 50px 20px 100px;}
+    .p_tb table tr td {font-size: 14px;}
+}
+
+@media (max-width: 450px) {
+  .guide_date > li > span {font-size: 18px; }
+  .guide_box {padding: 50px 15px;}
+  .guide_date > li > p {font-size: 16px;}
+  .guide_date > li > span {width: 80px;}
+  .re_in_right > p {font-size: 20px;}
+  .map_t_ad > p {font-size: 14px;}
+  .sec_tt_wrap > h4 {font-size: 20px;}
+  .sec_tt_wrap > .sec_sub_txt {font-size: 14px;}
+
+  .gd_icon > a {width: 50px; height: 50px;}
+  .gd_icon {bottom: -25px;}
+  .ys_mark {width: 60%;}
+
+}
+
+@media (max-width: 400px) {
+.t_row_txt > h6 {font-size: 16px;}
+.t_row_txt > p {font-size: 16px;}
+.tar_txt > span {font-size: 12px;}
+.treatment_li > li > .tr_num {font-size: 20px;}
+.guide_top {height: 40px; line-height: 40px; top: -22px;}
+
+}

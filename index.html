@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>연세마디힘재활의학과</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/m_style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@6.4.5/swiper.scss">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</head>
+
+<body>
+    <div class="popup">
+        <div class="popup_bg">
+            <div class="popup_box">
+                <div class="modal-header flex_bw">
+                    <h4 class="modal-title">비급여 항목</h4>
+                    <button type="button" class="close closePopup" data-dismiss="modal">×</button>
+                </div>
+                <div class="pop_con">
+                    <h5>비급여 수가표</h5>
+                    <div class="p_tb">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>중분류</th>
+                                    <th>소분류</th>
+                                    <th>단위</th>
+                                    <th>진료비용</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td rowspan="5">물리치료</td>
+                                    <td>도수치료 30분</td>
+                                    <td>30분</td>
+                                    <td>100,000원</td>
+                                </tr>
+                                <tr>
+                                    <td>도수치료 45분</td>
+                                    <td>45분</td>
+                                    <td>150,000원</td>
+                                </tr>
+                                <tr>
+                                    <td>도수치료 60분</td>
+                                    <td>60분</td>
+                                    <td>200,000원</td>
+                                </tr>
+                                <tr>
+                                    <td>체외충격파</td>
+                                    <td>부위, 시간별</td>
+                                    <td>60,000원 ~ 140,000원</td>
+                                </tr>
+                                <tr>
+                                    <td>냉각치료</td>
+                                    <td>부위, 시간별</td>
+                                    <td>20,000원 ~ 40,000원</td>
+                                </tr>
+
+                                <tr>
+                                    <td rowspan="2">주사</td>
+                                    <td>프로로주사 1부위</td>
+                                    <td>1부위</td>
+                                    <td>50,000원</td>
+                                </tr>
+                                <tr>
+                                    <td>프로로주사 2부위 이상</td>
+                                    <td>2부위 이상</td>
+                                    <td>120,000원</td>
+                                </tr>
+
+                                <tr>
+                                    <td rowspan="11">보호대</td>
+                                    <td>발목</td>
+                                    <td>1개</td>
+                                    <td>30,000원</td>
+                                </tr>
+                                <tr>
+                                    <td>손목</td>
+                                    <td>1개</td>
+                                    <td>25,000원</td>
+                                </tr>
+                                <tr>
+                                    <td>손가락</td>
+                                    <td>1개</td>
+                                    <td>30,000원</td>
+                                </tr>
+                                <tr>
+                                    <td>팔꿈치</td>
+                                    <td>1개</td>
+                                    <td>20,000원</td>
+                                </tr>
+                                <tr>
+                                    <td>허리</td>
+                                    <td>1개</td>
+                                    <td>45,000원</td>
+                                </tr>
+                                <tr>
+                                    <td>무릎</td>
+                                    <td>1개</td>
+                                    <td>30,000원</td>
+                                </tr>
+                                <tr>
+                                    <td>무릎(MCL)</td>
+                                    <td>1개</td>
+                                    <td>60,000원</td>
+                                </tr>
+                                <tr>
+                                    <td>팔걸이</td>
+                                    <td>1개</td>
+                                    <td>10,000원</td>
+                                </tr>
+                                <tr>
+                                    <td>복대</td>
+                                    <td>1개</td>
+                                    <td>10,000원</td>
+                                </tr>
+                                <tr>
+                                    <td>캐스트슈즈</td>
+                                    <td>1개</td>
+                                    <td>15,000원</td>
+                                </tr>
+                                <tr>
+                                    <td>멀티핑거스프린트</td>
+                                    <td>1개</td>
+                                    <td>15,000원</td>
+                                </tr>
+
+                                <tr>
+                                    <td rowspan="9">서류수수료</td>
+                                    <td>치료확인서(통원확인서)</td>
+                                    <td>1장</td>
+                                    <td>3,000원</td>
+                                </tr>
+                                <tr>
+                                    <td>의사소견서</td>
+                                    <td>1장</td>
+                                    <td>20,000원</td>
+                                </tr>
+                                <tr>
+                                    <td>의사소견서 재발행</td>
+                                    <td>재발행</td>
+                                    <td>1,000원</td>
+                                </tr>
+                                <tr>
+                                    <td>일반진단서</td>
+                                    <td>1장</td>
+                                    <td>20,000원</td>
+                                </tr>
+                                <tr>
+                                    <td>일반진단서 재발행</td>
+                                    <td>재발행</td>
+                                    <td>1,000원</td>
+                                </tr>
+                                <tr>
+                                    <td>근로능력평가용 진단서</td>
+                                    <td>1장</td>
+                                    <td>20,000원</td>
+                                </tr>
+                                <tr>
+                                    <td>차트복사</td>
+                                    <td>장당</td>
+                                    <td>1,000원</td>
+                                </tr>
+                                <tr>
+                                    <td>CD Copy</td>
+                                    <td>1장</td>
+                                    <td>10,000원</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="modal-footer flex">
+                    <button type="button" class="btn btn-default closePopup" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <header>
+        <div class="hd_top flex_bw">
+            <div class="hd_lc flex_a"><span>2</span>
+                <p>서초역 2번출구</p>
+            </div>
+            <h2 class="logo"><a href="index.html"><img src="./img/logo1.png" alt=""></a></h2>
+            <div class="hd_call flex_a"><span><img src="./img/call.png" alt=""></span>
+                <p>02-<b>3486-7117</b></p>
+            </div>
+        </div>
+        <div class="hd_bt">
+            <ul class="hd_menu flex_bw">
+                <li><a href="#sec1">의료진 소개</a></li>
+                <li><a href="#sec2">진료 프로그램</a></li>
+                <li><a href="#sec3">둘러보기</a></li>
+                <li><a href="#sec4">진료시간</a></li>
+                <li><a href="#sec5">오시는 길</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="header_m">
+        <div class="header_inner_m flex_bw">
+            <a href="tel:0234867117" class="m_h_btn1" onclick="return confirm('02-3486-7117로 전화를 거시겠습니까?');"><img
+                    src="./img/call.png" alt=""></a>
+            <h1 class="m_logo"><img src="./img/logo1.png" alt=""></h1>
+            <button id="menuButton" type="button" class="m_close_btn"><img id="menuIcon" src="./img/m_menu.png"
+                    alt=""></button>
+        </div>
+
+        <div class="m_tnb">
+            <ul class="m_t_menu">
+                <li><a href="#sec2">진료 프로그램</a></li>
+                <li><a href="#sec3">둘러보기</a></li>
+                <li><a href="#sec4">진료시간</a></li>
+                <li><a href="#sec1">의료진 소개</a></li>
+                <li><a href="#sec5">오시는 길</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+    <div class="side_menu_wrap">
+        <ul class="side_menu">
+            <li><a href="#"><img src="./img/blog.png" alt="">블로그</a></li>
+            <li><a href="#"><img src="./img/instar.png" alt="">인스타</a></li>
+            <li><a href="#"><img src="./img/time.png" alt="">시간</a></li>
+            <li><a href="#"><img src="./img/location.png" alt="">위치</a></li>
+        </ul>
+
+        <button type="button" id="topButton" class="top_btn"><img src="./img/arrow.png" alt=""></button>
+    </div>
+
+    <div class="content_wrap">
+        <section class="main_slide">
+            <div class="main_banner swiper mySwiper swiper-container">
+                <ul class="main_banner_wrap swiper-wrapper">
+                    <li class="main_banner_li swiper-slide">
+                        <img src="./img/main1.png" alt="">
+                    </li>
+                    <li class="main_banner_li swiper-slide">
+                        <img src="./img/main2.png" alt="">
+                    </li>
+                </ul>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="main_text">
+                <h3>
+                    연세마디힘 재활의학과는<br />
+                    <b>근본적인 원인을 찾아</b> 통증을 치료합니다.
+                </h3>
+                <span class="bar"></span>
+                <p class="sub_eg"><b>YONSEI MADIHIM</b> REHABILITATION CLINIC</p>
+            </div>
+        </section>
+
+        <div id="sec1" class="fade-box sec_content section1" data-aos="fade-up" data-aos-offset="150"
+            data-aos-duration="1000" data-aos-easing="ease-in-out">
+            <div class="sec_tt_wrap">
+                <h4 class="sec_title">연세마디힘재활의학과 <b>의료진 소개</b></h4>
+                <p class="sec_sub_txt">YONSEI MADIHIM Rehabilitation CLINIC</p>
+            </div>
+
+            <div class="ledger_wrap1">
+                <div class="ld_w_top flex">
+                    <div class="led_left">
+                        <img src="./img/profile1.png" alt="" data-aos="fade-up" data-aos-offset="150"
+                            data-aos-duration="1000" data-aos-easing="ease-in-out">
+
+                    </div>
+                    <div class="led_right" data-aos="fade-left" data-aos-delay="500">
+                        <span>대표원장 <b>김한승</b></span>
+                        <p>
+
+                            연세대학교(신촌) 의과대학 졸업<br />
+                            세브란스병원 수련의<br />
+                            재활의학과 전공의 , 전문의<br />
+                            연세대학교 재활의학교실 외래부교수<br />
+                            을지대학교 재활의학교실 외래교수<br />
+                            국회보건의료발전연구회 전문위원(전)<br />
+                            대한재활의학회 보험위원회 위원(전)<br />
+                            대한재활의학회 정책위원회 위원(전)<br />
+                            대한병원장협의회 정책이사(전)<br />
+                            <span>
+                                대한재활의학회 정회원<br />
+                                대한임상통증학회 정회원<br />
+                                대한근골격초음파학회 회원<br />
+                                대한근전도ㆍ전기진단의학회 정회원
+                            </span>
+                        </p>
+                        <div class="led_in_txt">
+                            <h6>풍부한 임상경험과 안전한 시술</h6>
+                            <p>
+                                세브란스병원 수련의/전공의를 수료한 재활의학과 전문의 대표원장이<br>
+                                20여년간 축적한 풍부한 임상경험과 노하우를 바탕으로 건강한 삶의<br>
+                                활력을 불어넣을 수 있도록 친절하고 정직하게 진료합니다.<br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ld_w_bt" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
+                    <div class="led_in_txt">
+                        <h6>풍부한 임상경험과 안전한 시술</h6>
+                        <p>
+                            세브란스병원 수련의/전공의를 수료한 재활의학과 전문의 대표원장이<br />
+                            20여년간 축적한 풍부한 임상경험과 노하우를 바탕으로 건강한 삶의<br />
+                            활력을 불어넣을 수 있도록 친절하고 정직하게 진료합니다.<br />
+                        </p>
+                    </div>
+                    <div class="ys_mark"><img src="./img/mark.png" alt=""></div>
+
+                </div>
+            </div>
+        </div>
+        <div id="sec2" class="sec_content section2" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000"
+            data-aos-easing="ease-in-out">
+            <div class="sec_tt_wrap">
+                <h4 class="sec_title">연세마디힘재활의학과 <b>진료과목</b></h4>
+                <p class="sec_sub_txt">YONSEI MADIHIM REHABILITATION CLINIC</p>
+            </div>
+            <ul class="treatment_li flex">
+                <li data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <img src="./img/subject1.png" alt="">
+                    <span class="tr_num">01</span>
+                    <div class="t_row_txt">
+                        <h6>도수치료 클리닉</h6>
+                        <p>통증치료 및 다각적인 환자의 재활을 위한 도수치료를 시행합니다.</p>
+                        <div class="tar_txt flex">
+                            <span>#도수치료</span>
+                            <span>#관절통</span>
+                            <span>#근육통</span>
+                            <span>#재활치료</span>
+                            <span>#통증치료</span>
+                        </div>
+                    </div>
+                </li>
+                <li data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <img src="./img/subject2.png" alt="">
+                    <span class="tr_num">02</span>
+                    <div class="t_row_txt">
+                        <h6>직장인 통증 클리닉 런치타임 수액</h6>
+                        <p>과중한 업무와 스트레스로 인해 경직된 근육과 신체 불균형을<br />
+                            치료하고 피로회복, 숙취해소, 안티에이징을 도와드립니다.</p>
+                        <div class="tar_txt flex">
+                            <span>#목어깨근육뭉침</span>
+                            <span>#뒷목통증</span>
+                            <span>#손목통증</span>
+                            <span>#발목발바닥통증</span>
+                            <span>#골반통증</span>
+                            <span>#피로회복</span>
+                            <span>#숙취해소</span>
+                            <span>#안티에이징</span>
+                        </div>
+                    </div>
+                </li>
+                <li data-aos="fade-up" data-aos-offset="450" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <img src="./img/subjects3.png" alt="">
+                    <span class="tr_num">03</span>
+                    <div class="t_row_txt">
+                        <h6>직장인 통증 클리닉 런치타임 수액</h6>
+                        <p>과중한 업무와 스트레스로 인해 경직된 근육과 신체 불균형을<br />
+                            치료하고 피로회복, 숙취해소, 안티에이징을 도와드립니다.</p>
+                        <div class="tar_txt flex">
+                            <span>#목어깨근육뭉침</span>
+                            <span>#뒷목통증</span>
+                            <span>#손목통증</span>
+                            <span>#발목발바닥통증</span>
+                            <span>#골반통증</span>
+                            <span>#피로회복</span>
+                            <span>#숙취해소</span>
+                            <span>#안티에이징</span>
+                        </div>
+                    </div>
+                </li>
+                <li data-aos="fade-up" data-aos-offset="600" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <img src="./img/subjects4.png" alt="">
+                    <span class="tr_num">04</span>
+                    <div class="t_row_txt">
+                        <h6>직장인 통증 클리닉 런치타임 수액</h6>
+                        <p>과중한 업무와 스트레스로 인해 경직된 근육과 신체 불균형을<br />
+                            치료하고 피로회복, 숙취해소, 안티에이징을 도와드립니다.</p>
+                        <div class="tar_txt flex">
+                            <span>#목어깨근육뭉침</span>
+                            <span>#뒷목통증</span>
+                            <span>#손목통증</span>
+                            <span>#발목발바닥통증</span>
+                            <span>#골반통증</span>
+                            <span>#피로회복</span>
+                            <span>#숙취해소</span>
+                            <span>#안티에이징</span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="sec3" class="sec_content section3" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000"
+            data-aos-easing="ease-in-out">
+            <div class="sec_tt_wrap">
+                <h4 class="sec_title">연세마디힘재활의학과 <b>둘러보기</b></h4>
+                <p class="sec_sub_txt">YONSEI MADIHIM REHABILITATION CLINIC</p>
+
+            </div>
+            <div class="mid_slide">
+                <div class="swiper mySwiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./img/slide.png" alt="슬라이드1" /></div>
+                        <div class="swiper-slide"><img src="./img/slide2.png" alt="슬라이드2" /></div>
+                        <div class="swiper-slide"><img src="./img/slide3.png" alt="슬라이드3" /></div>
+                        <div class="swiper-slide"><img src="./img/slide3.png" alt="슬라이드3" /></div>
+                        <div class="swiper-slide"><img src="./img/slide3.png" alt="슬라이드3" /></div>
+                    </div>
+
+                    <!-- 좌우 화살표 -->
+
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+
+        <div id="sec4" class="sec_content section4" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000"
+            data-aos-easing="ease-in-out">
+            <div class="sec_tt_wrap">
+                <h4 class="sec_title">연세마디힘재활의학과 <b>진료안내</b></h4>
+                <p class="sec_sub_txt">YONSEI MADIHIM REHABILITATION CLINIC</p>
+            </div>
+            <div class="guide_box">
+                <div class="guide_top">CONSULTING HOUR</div>
+                <ul class="guide_date">
+                    <li class="flex">
+                        <span>평 &nbsp;&nbsp;&nbsp;&nbsp;일</span>
+                        <p>오전 09:00 - 오후 07:00</p>
+                    </li>
+                    <li class="flex">
+                        <span class="sd_t">토 요 일</span>
+                        <p>오전 09:00 - 오후 07:00</p>
+                    </li>
+                    <li class="flex">
+                        <span class="lnc">점심시간</span>
+                        <p>오전 09:00 - 오후 07:00</p>
+                    </li>
+                </ul>
+                <h6>일요일, 공휴일은 휴진입니다.</h6>
+                <div class="gd_icon flex">
+                    <a href="#">
+                        <div class="tooltip-custom">블로그</div><img src="./img/blog.png" alt="블로그">
+                    </a>
+                    <a href="#">
+                        <div class="tooltip-custom">인스타그램</div><img src="./img/instar.png" alt="인스타">
+                    </a>
+                    <a href="#" class="b_pop_btn">
+                        <div class="tooltip-custom">비보험 수가</div><img src="./img/book.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="rv_in_wrap flex">
+                <div class="re_in_left flex">
+                    <img src="./img/call.png" alt="">
+                    <p>
+                        예약 문의<br />
+                        <span>RESERVATION</span>
+                    </p>
+                </div>
+                <span class="l_bar"></span>
+                <div class="re_in_right">
+                    <p>02<span>-3486-7117</span></p>
+                </div>
+            </div>
+        </div>
+        <div id="sec5" class="sec_content section5 sec_gray" data-aos="fade-up" data-aos-offset="150"
+            data-aos-duration="1000" data-aos-easing="ease-in-out">
+            <div class="sec_tt_wrap">
+                <h4 class="sec_title">연세마디힘재활의학과 <b>오시는길</b></h4>
+                <p class="sec_sub_txt">YONSEI MADIHIM REHABILITATION CLINIC</p>
+            </div>
+            <div class="map_wrap">
+                <!-- * 카카오맵 - 지도퍼가기 -->
+                <!-- 1. 지도 노드 -->
+                <div id="daumRoughmapContainer1751372616392" class="root_daum_roughmap root_daum_roughmap_landing"
+                    style="width: 100%; height: 100%; border-bottom:1px solide #ccc;"></div>
+
+                <!--
+                	2. 설치 스크립트
+                	* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+                -->
+                <script charset="UTF-8" class="daum_roughmap_loader_script"
+                    src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+                <!-- 3. 실행 스크립트 -->
+                <script charset="UTF-8">
+                    new daum.roughmap.Lander({
+                        "timestamp": "1751372616392",
+                        "key": "4vkj35e6c5o",
+                        "mapHeight": "600"
+                    }).render();
+                </script>
+            </div>
+            <div class="map_bt_txt flex" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000"
+                data-aos-easing="ease-in-out">
+                <div class="map_t_in_w map_t_in_w1">
+                    <div class="map_t_in map_t_in1">
+                        <h6>지하철 이용</h6>
+                        <div class="map_t_ad_con map_t_ad_con1">
+                            <div class="map_t_ad map_t_ad1 flex">
+                                <span class="gr_txt">2호선&nbsp;</span>
+                                <p>
+                                    <span>서초역 2번 출구</span> 90m (도보 1분)<br />
+                                    사랑의교회 건너편 스타벅스 2층
+                                </p>
+                            </div>
+                            <div class="map_t_ad flex">
+                                <span class="or_txt">3호선&nbsp;</span>
+                                <p><span>교대역 14번 출구</span> 500m (도보 7분)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map_t_in_w map_t_in_w2">
+                    <div class="map_t_in map_t_in2">
+                        <h6>버스 이용</h6>
+                        <div class="map_t_ad_con map_t_ad_con2">
+                            <div class="map_t_ad map_t_ad1 flex">
+                                <span class="bl_txt">간선&nbsp;</span>
+                                <p>405, 742, 40, 541, 740</p>
+                            </div>
+                            <div class="map_t_ad map_t_ad1 flex">
+                                <span class="sky_txt">지선&nbsp;</span>
+                                <p>5413, 4435</p>
+                            </div>
+                            <div class="map_t_ad flex">
+                                <span class="gr_txt">마을&nbsp;</span>
+                                <p>서초02, 서초11, 서초21</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="map_last_txt">
+                본 건물 최대 4대까지 주차 가능합니다.<br />
+                세븐약국 이용 시 동일하이빌 1시간 무료 주차 및 전화주시면 인근 공영주자창 안내가능합니다.
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer_inner flex_bw">
+            <div class="footer_left">
+                <span>연세마디힘재활의학과의원</span>
+                <p>
+                    서울특별시 서초구 서초동 1542-14 2층<br />
+                    <span>대표</span> 김한승 <span>사업자등록번호</span> 759-90-02076<br class="br1" /> <span>TEL</span>
+                    02-3486-7117<br />
+                    Copyright YONSEI MADIHIM RESHABILITATION CLINIC of All rights Reserved.
+                </p>
+            </div>
+            <div class="footer_right">
+                <img src="./img/logo2.png" alt="">
+            </div>
+        </div>
+    </footer>
+    <div class="bottom_menu_wrap">
+        <ul class="bt_menu flex">
+            <li class="flex"><img src="./img/call2.png" alt=""><a href="tel:0234867117" class="m_h_btn1"
+                    onclick="return confirm('02-3486-7117로 전화를 거시겠습니까?');">전화상담</a></li>
+            <li class="flex"><img src="./img/blog.png" alt=""><a href="#">블로그</a></li>
+            <li class="flex"><img src="./img/instar.png" alt=""><a href="#">인스타그램</a></li>
+        </ul>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
+
+<script>
+    AOS.init({
+        duration: 1000, // 애니메이션 지속 시간 (1초)
+        easing: "ease-in-out", // 부드러운 애니메이션 효과
+        once: false, // 스크롤 올리면 다시 사라짐
+        mirror: true, // 다시 보이게 설정
+        throttleDelay: 150, // 스크롤 최적화 (기본값: 99ms)
+        debounceDelay: 50 // 리사이즈 시 지연 시간 (기본값: 50ms)
+    });
+
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        loop: true,
+
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: true,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+
+    new Swiper('.mySwiper2', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        loop: true,
+        slidesPerView: 'auto',
+        loopAdditionalSlides: 3, // 복제 슬라이드 확보
+        coverflowEffect: {
+            rotate: 0,
+            stretch: 50,     // 🔁 방향 바로잡기
+            depth: 200,
+            modifier: 1,
+            slideShadows: false,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: true,
+        },
+        breakpoints: {
+            0: {
+                slidesPerView: 1,
+                effect: 'slide',
+            },
+            768: {
+                slidesPerView: 'auto',
+                effect: 'coverflow',
+            }
+        }
+    });
+
+
+
+</script>
